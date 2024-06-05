@@ -378,3 +378,10 @@ a.inline-link {
     color: $gray-900;
   }
 }
+
+
+// Own overrides
+
+a#controlled-tab-tab-\/register {
+    display: none !important;
+}
