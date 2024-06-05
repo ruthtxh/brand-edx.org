@@ -380,8 +380,20 @@ a.inline-link {
 }
 
 
-// Own overrides
-
 a#controlled-tab-tab-\/register {
     display: none !important;
+}
+
+a#controlled-tab-tab-\/login{
+    border-bottom: 2px solid #e96829 !important;
+    color: #e96828 !important;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    z-index: 27;
+    display: block !important;
+    visibility: visible;
+}
+button#pgn__tab-toggle{
+    display: none;
 }
